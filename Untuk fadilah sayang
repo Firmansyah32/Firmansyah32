@@ -1,4 +1,4 @@
-```html<!DOCTYPE html>
+ html>
 <html lang="id">
 <head>
  <meta charset="UTF-8">
@@ -26,6 +26,7 @@
  box-shadow:020px40px rgba(0,0,0,0.1);
  text-align: center;
  max-width:500px;
+ width:100%;
  }
  h1 {
  color: #333;
@@ -50,6 +51,7 @@
  box-shadow:08px25px rgba(255,107,107,0.4);
  transition: all0.3s ease;
  border: none;
+ margin:10px;
  }
  .button:hover {
  background: linear-gradient(45deg, #ff5252, #ffb300);
@@ -69,7 +71,7 @@
  box-shadow:012px35px rgba(37,211,102,0.6);
  }
  .button-email {
- background: linear-gradient(45deg, #EA4335, #FF8B00);
+ background: linear-gradient(45deg, #EA4335, #FB8B00);
  box-shadow:08px25px rgba(234,67,53,0.4);
  }
  .button-email:hover {
@@ -85,6 +87,11 @@
  h1 {
  font-size:2em;
  }
+ .button {
+ display: block;
+ margin:15px auto;
+ max-width:280px;
+ }
  }
  </style>
 </head>
@@ -95,15 +102,13 @@
  <!-- GITHUB -->
  <a href="https://github.com/Firmanasyah32/Untuk-fadilah" class="button" target="_blank" rel="noopener noreferrer">
 🌟 Lihat di GitHub </a>
- <!-- SPASI -->
- <br><br>
  <!-- WHATSAPP -->
- <a href="https://wa.me/6282267188286?text=Halo!%20Saya%20lihat%20project%20kamu%20keren!" class="button button-whatsapp" target="_blank">
+ <a href="https://wa.me/6282267188286?text=Halo!%20Saya%20lihat%20project%20kamu%20keren!" class="button button-whatsapp" target="_blank" rel="noopener noreferrer">
 💬 Chat WhatsApp </a>
  <!-- EMAIL -->
- <a href="mailto:firmansyahp108@gmail.com?subject=Portfolio%20Inquiry" class="button button-email">
+ <a href="mailto:firmansyahp108@gmail.com?subject=Portfolio%20Inquiry" class="button button-email" rel="noopener noreferrer">
 ✉️ Kirim Email </a>
  </div>
 </body>
 </html>
-```
+
